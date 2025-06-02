@@ -1,0 +1,42 @@
+* {
+    font-family: cursive Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    background: linear-gradient(to right,rgb(235, 145, 160),rgb(187, 95, 187));
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box {
+    background-color: rgb(140, 189, 232);
+    width: fit-content;
+    padding: 40px;
+    box-shadow: 7px 7px 15px rgb(32, 20, 20);
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(223, 37, 37);
+}
+h1{
+    color: rgb(222, 8, 8);
+    text-shadow: 1px 1px 4px black;
+}
+
+input[type="button"]{
+    color: rgb(5, 19, 5);
+    text-indent: 2px;
+    text-shadow: 1px 1px 2px yellow;
+    background-color: rgb(16, 169, 16);
+}
+label{
+    color: black;
+}
